@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Hex Code Finder</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+        #colorInfo {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="uploadInput" accept="image/*">
+    <br>
+    <canvas id="canvas" width="400" height="300"></canvas>
+    <div id="colorInfo"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
